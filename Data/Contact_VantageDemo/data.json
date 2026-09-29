@@ -1,0 +1,118 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "18c6c60d-c10f-4e3a-8365-14ca11596082"
+        },
+        {
+          "SchemaColumnUId": "771a60e2-020c-4dd2-8512-b428b8a47dba",
+          "Value": "Rivera"
+        },
+        {
+          "SchemaColumnUId": "a49571cc-a9a9-4c3e-a346-46c466e9a0d3",
+          "Value": "60733efc-f36b-1410-a883-16d83cab0980",
+          "DisplayValue": "Employee"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "Alex Rivera"
+        },
+        {
+          "SchemaColumnUId": "a855b7ae-45be-4d73-9074-9d84e4ae66c4",
+          "Value": "6ebc31fa-ee6c-48e9-81bf-8003ac03b019",
+          "DisplayValue": "English (United States)"
+        },
+        {
+          "SchemaColumnUId": "cc26b1c5-4254-4287-9c15-0b5acd319811",
+          "Value": "Alex"
+        },
+        {
+          "SchemaColumnUId": "ced280cc-7423-4175-9896-ea592a9e81a6",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "alex.rivera@example.com"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "30a5cfd8-3145-4ae5-9e8f-c04ee97b8372"
+        },
+        {
+          "SchemaColumnUId": "771a60e2-020c-4dd2-8512-b428b8a47dba",
+          "Value": "Okafor"
+        },
+        {
+          "SchemaColumnUId": "a49571cc-a9a9-4c3e-a346-46c466e9a0d3",
+          "Value": "60733efc-f36b-1410-a883-16d83cab0980",
+          "DisplayValue": "Employee"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "Sam Okafor"
+        },
+        {
+          "SchemaColumnUId": "a855b7ae-45be-4d73-9074-9d84e4ae66c4",
+          "Value": "6ebc31fa-ee6c-48e9-81bf-8003ac03b019",
+          "DisplayValue": "English (United States)"
+        },
+        {
+          "SchemaColumnUId": "cc26b1c5-4254-4287-9c15-0b5acd319811",
+          "Value": "Sam"
+        },
+        {
+          "SchemaColumnUId": "ced280cc-7423-4175-9896-ea592a9e81a6",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "sam.okafor@example.com"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4aecdb46-6a7a-4ddb-900d-0bbaf214cf9d"
+        },
+        {
+          "SchemaColumnUId": "771a60e2-020c-4dd2-8512-b428b8a47dba",
+          "Value": "Mehta"
+        },
+        {
+          "SchemaColumnUId": "a49571cc-a9a9-4c3e-a346-46c466e9a0d3",
+          "Value": "60733efc-f36b-1410-a883-16d83cab0980",
+          "DisplayValue": "Employee"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "Priya Mehta"
+        },
+        {
+          "SchemaColumnUId": "a855b7ae-45be-4d73-9074-9d84e4ae66c4",
+          "Value": "6ebc31fa-ee6c-48e9-81bf-8003ac03b019",
+          "DisplayValue": "English (United States)"
+        },
+        {
+          "SchemaColumnUId": "cc26b1c5-4254-4287-9c15-0b5acd319811",
+          "Value": "Priya"
+        },
+        {
+          "SchemaColumnUId": "ced280cc-7423-4175-9896-ea592a9e81a6",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "priya.mehta@example.com"
+        }
+      ]
+    }
+  ]
+}

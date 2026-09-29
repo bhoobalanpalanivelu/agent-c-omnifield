@@ -1,0 +1,158 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2ddb06c7-d63d-4291-9968-27d45f436319"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "63c9bcf2-617b-4bac-966f-ef0eaf31c9d8",
+          "DisplayValue": "Knowledge base"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 131
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "44b3be30-f4fe-46a2-ba2c-a7071c111734"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "021d26b9-c326-4795-9b95-fbed6fa41e83",
+          "DisplayValue": "Tasks"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 128
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "48036bfe-0b92-461d-9d9a-90785c8347dd"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "c87bba65-57c0-4728-b672-f464238a22d7",
+          "DisplayValue": "Calendar"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 127
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8df676ac-2ca1-4c94-81b5-f2e2c0290a83"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "ebf36756-7854-4169-b2cc-8bc0ea25f391",
+          "DisplayValue": "Employees"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 132
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "de70d201-a7c5-4a7d-8871-8ac4579a2737"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "003bcd0e-9245-4f08-904b-2a63ddee5f2e",
+          "DisplayValue": "Equipment"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 130
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e1fa2ced-2a87-4338-b0fa-b70ada715b01"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "24e07446-3a40-49f5-81d1-c20cb4c0cdc4",
+          "DisplayValue": "Contacts"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 129
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f854c2ee-ab36-47ff-8fb1-7ed71ed94043"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "3a6b49ec-5800-4ab8-8514-4ef9d842a10a",
+          "DisplayValue": "Vantage Field Service"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "cd6d92f3-48e6-4bca-9114-d141621c118f",
+          "DisplayValue": "Cases"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 126
+        }
+      ]
+    }
+  ]
+}

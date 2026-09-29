@@ -1,0 +1,32 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "98ef22e2-bf6d-4296-918c-a2965514ce6e"
+        },
+        {
+          "SchemaColumnUId": "d19b709f-9a3e-49b6-9fb7-1cdd5082876e",
+          "ColumnName": "Name",
+          "Value": "Sam Okafor"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "d85f8718-129a-430a-aa2a-37fab9cc1257"
+        },
+        {
+          "SchemaColumnUId": "d19b709f-9a3e-49b6-9fb7-1cdd5082876e",
+          "ColumnName": "Name",
+          "Value": "Alex Rivera"
+        }
+      ]
+    }
+  ]
+}

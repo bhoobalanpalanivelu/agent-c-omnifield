@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2246d967-8c1c-4760-8073-f29383b0657f",
+    "Name": "Cr8VantageApprovalOutcome",
+    "ModifiedOnUtc": "\/Date(1790449650000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Vantage: approval outcome listener",
+    "DependsOn": []
+  }
+}

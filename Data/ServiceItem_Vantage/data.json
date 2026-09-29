@@ -1,0 +1,54 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d9761667-396e-4efa-b0f6-0fe307554d07"
+        },
+        {
+          "SchemaColumnUId": "0442e7ab-87f5-4110-840b-885efd5cc394",
+          "Value": 3
+        },
+        {
+          "SchemaColumnUId": "08272f0d-1d32-40fb-93fa-8f26e83f065f",
+          "Value": "9a32e65f-7d52-49ac-aef5-836a9a01f14e",
+          "DisplayValue": "Active"
+        },
+        {
+          "SchemaColumnUId": "0f639a8f-2578-4559-9241-2b3fb8c3e25c",
+          "Value": "2a608ed7-d118-402a-99c0-2f583291ed2e",
+          "DisplayValue": "Working hours"
+        },
+        {
+          "SchemaColumnUId": "58aa36e4-8c91-4f2d-abdf-bc0b293db336",
+          "Value": "Residential HVAC repair visit"
+        },
+        {
+          "SchemaColumnUId": "6d363bd0-0b58-4887-921c-a1506b3d27dc",
+          "Value": "1c0bc159-150a-e111-a31b-00155d04c01d",
+          "DisplayValue": "Service request"
+        },
+        {
+          "SchemaColumnUId": "8a7c51f0-42ba-4901-9847-2e58d5a0233d",
+          "Value": "0bf65352-3e98-4f4c-b825-1733934108f7",
+          "DisplayValue": "Customer support"
+        },
+        {
+          "SchemaColumnUId": "96b666c6-1aee-4a64-bbd8-3e0784e98ad7",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "bdb8cb94-0dc8-402d-91e2-566c26baf6d8",
+          "Value": "bdcbb819-9b26-4627-946f-d00645a2d401",
+          "DisplayValue": "Working days"
+        },
+        {
+          "SchemaColumnUId": "ecba8517-ce27-4d3a-b8f1-27acf4774fc3",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    }
+  ]
+}

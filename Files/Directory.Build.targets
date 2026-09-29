@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/Cr8FieldServiceOps/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/Cr8FieldServiceOps/Data/**" />
+		<Compile Remove="$(PkgPath)/Cr8FieldServiceOps/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/Cr8FieldServiceOps/Schemas\**" />
+		<Compile Remove="$(PkgPath)/Cr8FieldServiceOps/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Cr8FieldServiceOps/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Cr8FieldServiceOps/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Cr8FieldServiceOps/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Cr8FieldServiceOps/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Cr8FieldServiceOps/Resources/**" />
+		<None Remove="$(PkgPath)/Cr8FieldServiceOps/Assemblies/**" />
+		<None Remove="$(PkgPath)/Cr8FieldServiceOps/Data/**" />
+		<None Remove="$(PkgPath)/Cr8FieldServiceOps/SqlScripts/**" />
+		<None Remove="$(PkgPath)/Cr8FieldServiceOps/Schemas/**" />
+		<None Remove="$(PkgPath)/Cr8FieldServiceOps/Resources/**" />
+  </ItemGroup>
+</Project>

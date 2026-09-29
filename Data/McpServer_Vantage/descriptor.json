@@ -1,0 +1,49 @@
+﻿{
+  "Descriptor": {
+    "UId": "83547296-9eb3-4f9b-b1d0-1e0cff7c1123",
+    "Name": "McpServer_Vantage",
+    "ModifiedOnUtc": "\/Date(1790332026000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "4cb13ab9-dbdd-400b-b2af-11d421901b6d",
+      "Name": "McpServer"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "2e4bd670-e01c-0b39-336f-0a3f8acc7c54",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+      },
+      {
+        "ColumnUId": "6e7aa22e-fa36-4cc1-a802-99fd32d9ae1c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9bb19ab2-c3f3-7776-de15-4f19e341e2d4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsOnline",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "e61a713d-8385-ac01-386d-45d4372e65ca",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Code",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

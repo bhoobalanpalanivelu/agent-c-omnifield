@@ -1,0 +1,165 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "0585c679-4d80-463c-9bff-a8dd7f64e138"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "83b2c5f1-984b-487a-bd5e-0e79287a092d",
+          "DisplayValue": "Sunday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "078c9b1e-9312-43ef-b890-e5298db62827",
+          "DisplayValue": "Day off"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "19d5fe52-2626-4e2c-ac6f-e3a25009e8d5"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "7f28b7c1-89d7-45ef-874d-629994add23e",
+          "DisplayValue": "Tuesday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "5cc44ca8-1a41-4650-8573-552644a810d8"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "424e49a3-1db9-47cb-95d2-6af06f64614f",
+          "DisplayValue": "Monday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "92650f6b-946c-41c0-bbda-33c20653fc36"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "e9dbb6cb-a7bf-4c22-a5a3-186fd3e3f99c",
+          "DisplayValue": "Friday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9a89702a-186a-41ac-b4dc-ba976519e86e"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "254b8ef9-56ec-471a-8a4a-f2c5f2e8f90f",
+          "DisplayValue": "Thursday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "eea7bea5-f4c0-4792-be13-24ad748f287e"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "c33f5141-c4ed-4a37-bf65-217c431887a6",
+          "DisplayValue": "Wednesday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f91c047e-b59e-45b1-8c3a-27833767302a"
+        },
+        {
+          "SchemaColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+          "Value": "75d4dba1-e059-4fd2-ad92-7d7c92c0d8cb",
+          "DisplayValue": "Saturday"
+        },
+        {
+          "SchemaColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+          "Value": "e0c666ad-a59e-4625-89e6-5e0bf75dad2a",
+          "DisplayValue": "Working day"
+        },
+        {
+          "SchemaColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        }
+      ]
+    }
+  ]
+}

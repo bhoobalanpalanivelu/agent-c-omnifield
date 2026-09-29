@@ -1,0 +1,63 @@
+﻿{
+  "Descriptor": {
+    "UId": "6900f17a-7013-44e5-a5d7-8b6707a69979",
+    "Name": "ServicePact_Vantage",
+    "ModifiedOnUtc": "\/Date(1790440375000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "595ddbda-31ce-4cca-9bdd-862257ceaf23",
+      "Name": "ServicePact"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "19311286-f48f-42bf-899e-21d226188460",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "StartDate",
+        "DataTypeValueUId": "603d4960-a1a2-45e9-b232-206a54421b01"
+      },
+      {
+        "ColumnUId": "2e1d09da-730a-4c37-a832-e3a92b54e21b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Type",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "962a5845-b220-499d-abeb-32024cc6b626",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "caccdc0e-ba0e-4c14-a142-cd85e7abe724",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Calendar",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ce3b4314-00be-4920-9ee0-3bb4f0652b51",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Status",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "fab73b77-a8b5-4c05-9270-000e459d33b5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "EndDate",
+        "DataTypeValueUId": "603d4960-a1a2-45e9-b232-206a54421b01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b3a7cbc2-7c0d-49a3-9b65-52489c78910b",
+    "Name": "Cr8VantageMcpActions",
+    "ModifiedOnUtc": "\/Date(1790527417000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Vantage MCP actions",
+    "DependsOn": []
+  }
+}

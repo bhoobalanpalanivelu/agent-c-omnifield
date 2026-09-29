@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c9029544-10ba-403c-967e-258e1cb33c44",
+    "Name": "Cr8VantageApprovalStarter",
+    "ModifiedOnUtc": "\/Date(1790500717000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Vantage: start case approval on solution",
+    "DependsOn": []
+  }
+}

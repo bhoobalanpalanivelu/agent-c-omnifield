@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Cr8FeePosition.Caption" Value="Fee position" />
+			<Item Name="Columns.Cr8ServiceAddress.Caption" Value="Service address" />
+		</Items>
+	</Group>
+</Resources>

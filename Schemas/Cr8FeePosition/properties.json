@@ -1,0 +1,12 @@
+﻿{
+  "Properties": {
+    "AdministratedByColumns": "False",
+    "AdministratedByOperations": "False",
+    "AdministratedByRecords": "False",
+    "CreatedInVersion": "10.0.0.858",
+    "IsSSPAvailable": "False",
+    "IsTrackChangesInDB": "False",
+    "IsVirtual": "False",
+    "UseLiveEditing": "False"
+  }
+}

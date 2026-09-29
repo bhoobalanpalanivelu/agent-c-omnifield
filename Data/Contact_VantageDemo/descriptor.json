@@ -1,0 +1,70 @@
+﻿{
+  "Descriptor": {
+    "UId": "43d98639-99eb-48c2-ae2c-62d852d75292",
+    "Name": "Contact_VantageDemo",
+    "ModifiedOnUtc": "\/Date(1790424648000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+      "Name": "Contact"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "771a60e2-020c-4dd2-8512-b428b8a47dba",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Surname",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a49571cc-a9a9-4c3e-a346-46c466e9a0d3",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Type",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a855b7ae-45be-4d73-9074-9d84e4ae66c4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Language",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "cc26b1c5-4254-4287-9c15-0b5acd319811",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "GivenName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ced280cc-7423-4175-9896-ea592a9e81a6",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Confirmed",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Email",
+        "DataTypeValueUId": "66cba64c-daf1-4f36-b8ea-73c0d695d90c"
+      }
+    ]
+  }
+}

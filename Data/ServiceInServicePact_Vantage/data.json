@@ -1,0 +1,50 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "43890a45-e3e5-4714-87ff-e7cec512c1b6"
+        },
+        {
+          "SchemaColumnUId": "00c2bb07-f824-475c-88ae-6eee6e5fdd4c",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "088918cb-b8d4-4c12-a1eb-18fdd3ea9a69",
+          "Value": "9a32e65f-7d52-49ac-aef5-836a9a01f14e",
+          "DisplayValue": "Active"
+        },
+        {
+          "SchemaColumnUId": "73bba5cd-b107-4ae3-a065-9b9eb56cca89",
+          "Value": "d9761667-396e-4efa-b0f6-0fe307554d07",
+          "DisplayValue": "Residential HVAC repair visit"
+        },
+        {
+          "SchemaColumnUId": "9f68699f-3e58-4b1f-a1db-0bc70316b1db",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        },
+        {
+          "SchemaColumnUId": "a533502e-52b0-4824-9af7-9d62aaabdd96",
+          "Value": "e45f11be-c9e4-4c98-a67d-2790e643d473",
+          "DisplayValue": "Vantage Residential Service Plan"
+        },
+        {
+          "SchemaColumnUId": "b4b2684c-d092-4ebb-b0f2-38c76dd70fe1",
+          "Value": "bdcbb819-9b26-4627-946f-d00645a2d401",
+          "DisplayValue": "Working days"
+        },
+        {
+          "SchemaColumnUId": "ca97e260-8487-40a3-8ae1-cbf99852eb86",
+          "Value": "2a608ed7-d118-402a-99c0-2f583291ed2e",
+          "DisplayValue": "Working hours"
+        },
+        {
+          "SchemaColumnUId": "f9b77e37-01b7-4c8b-9298-5e6da858b3a2",
+          "Value": 3
+        }
+      ]
+    }
+  ]
+}

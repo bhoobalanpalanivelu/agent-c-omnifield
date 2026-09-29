@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9aa32f4c-7fa0-40ad-95b8-aca5e07ec7d5",
+    "Name": "Cr8CaseCaseCustom1",
+    "ModifiedOnUtc": "\/Date(1790503385000)\/",
+    "Parent": {
+      "UId": "3c7d3f4f-a553-4717-909e-6ca5dd6a042f",
+      "Name": "CaseCase"
+    },
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Case",
+    "DependsOn": []
+  }
+}

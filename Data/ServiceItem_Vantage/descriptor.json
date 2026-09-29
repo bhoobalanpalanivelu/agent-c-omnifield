@@ -1,0 +1,84 @@
+﻿{
+  "Descriptor": {
+    "UId": "d887464c-2a53-48bc-b513-ee134ea9b7fa",
+    "Name": "ServiceItem_Vantage",
+    "ModifiedOnUtc": "\/Date(1790440357000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "c6c44f0a-193e-4b5c-b35e-220a60c06898",
+      "Name": "ServiceItem"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "0442e7ab-87f5-4110-840b-885efd5cc394",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SolutionTimeValue",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "08272f0d-1d32-40fb-93fa-8f26e83f065f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Status",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "0f639a8f-2578-4559-9241-2b3fb8c3e25c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ReactionTimeUnit",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "58aa36e4-8c91-4f2d-abdf-bc0b293db336",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "6d363bd0-0b58-4887-921c-a1506b3d27dc",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CaseCategory",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "8a7c51f0-42ba-4901-9847-2e58d5a0233d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Category",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "96b666c6-1aee-4a64-bbd8-3e0784e98ad7",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ReactionTimeValue",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "bdb8cb94-0dc8-402d-91e2-566c26baf6d8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SolutionTimeUnit",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ecba8517-ce27-4d3a-b8f1-27acf4774fc3",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Calendar",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      }
+    ]
+  }
+}

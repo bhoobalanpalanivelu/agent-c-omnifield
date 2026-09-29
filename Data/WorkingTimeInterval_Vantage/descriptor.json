@@ -1,0 +1,42 @@
+﻿{
+  "Descriptor": {
+    "UId": "3a6fd415-3719-4dbc-a43b-c5862e05f358",
+    "Name": "WorkingTimeInterval_Vantage",
+    "ModifiedOnUtc": "\/Date(1790440338000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "3c971b13-45b1-49f4-af05-db8566668def",
+      "Name": "WorkingTimeInterval"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "1cca11f5-a9a8-4121-948c-9440212c73d5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DayInCalendar",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "45d1db09-15c2-47f6-b437-2ed41d7c1e61",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "To",
+        "DataTypeValueUId": "04cc757b-8f06-482c-8a1a-0c0e171d2410"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "d5043099-3e07-4aaf-9cf4-3faad2243c72",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "From",
+        "DataTypeValueUId": "04cc757b-8f06-482c-8a1a-0c0e171d2410"
+      }
+    ]
+  }
+}

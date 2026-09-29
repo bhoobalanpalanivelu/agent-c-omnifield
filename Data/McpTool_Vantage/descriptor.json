@@ -1,0 +1,91 @@
+﻿{
+  "Descriptor": {
+    "UId": "56203a4f-9b2a-469b-a34c-08673d4e3f5b",
+    "Name": "McpTool_Vantage",
+    "ModifiedOnUtc": "\/Date(1790332186000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "3435cd9f-bbf1-4bd7-a921-3db99c524826",
+      "Name": "McpTool"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "OutputSchema",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ExternalName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ToolSourceType",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "McpServer",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "InputSchema",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Title",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsEnabled",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+      },
+      {
+        "ColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Annotations",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SourceCodeAction",
+        "DataTypeValueUId": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+      }
+    ]
+  }
+}

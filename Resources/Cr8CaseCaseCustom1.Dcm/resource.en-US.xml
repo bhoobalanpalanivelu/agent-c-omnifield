@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Case" />
+			<Item Name="Stages.Stage1.Caption" Value="New" />
+			<Item Name="Stages.Stage2.Caption" Value="Canceled" />
+			<Item Name="Stages.Stage3.Caption" Value="Closed" />
+			<Item Name="Stages.Stage4.Caption" Value="Resolved" />
+			<Item Name="Stages.Stage5.Caption" Value="Waiting for response" />
+			<Item Name="Stages.Stage6.Caption" Value="In progress" />
+			<Item Name="Stages.Stage7.Caption" Value="Reopened" />
+			<Item Name="Stages.Stage8.Caption" Value="Rework" />
+			<Item Name="Stages.Stage9.Caption" Value="Awaiting Manager Approval" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AccountInfoLabel_caption.Value" Value="Account info" />
+			<Item Name="LocalizableStrings.Cr8ResolutionAudit_caption.Value" Value="Resolution audit" />
+			<Item Name="LocalizableStrings.CustomerProfileTabContainerHeaderLabel_caption.Value" Value="Customer profile" />
+			<Item Name="LocalizableStrings.CustomerProfileTabContainer_caption.Value" Value="Customer profile" />
+			<Item Name="LocalizableStrings.Label_59nue7x_caption.Value" Value="Account info" />
+			<Item Name="LocalizableStrings.addRecord_juptj26_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_myjkaqn_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_tv82bbh_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

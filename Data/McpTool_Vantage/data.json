@@ -1,0 +1,354 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "095c97ac-fc30-5983-bf5f-6738a16dc863"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_request_coordinator"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"Reason\": {\"type\": \"string\", \"description\": \"UnknownCaller | NoQualifiedTechnician | BookingFailed\"}, \"CallerName\": {\"type\": \"string\", \"description\": \"Caller name as given\"}, \"CallerPhone\": {\"type\": \"string\", \"description\": \"Caller phone as given\"}, \"ContactId\": {\"type\": \"string\", \"description\": \"Contact id if the caller was found\"}, \"Priority\": {\"type\": \"string\", \"description\": \"High | Medium | Low\"}, \"Subject\": {\"type\": \"string\", \"description\": \"Short fault summary\"}, \"Symptoms\": {\"type\": \"string\", \"description\": \"Priority reason and the customer's words\"}, \"ServiceAddress\": {\"type\": \"string\", \"description\": \"Service address if known\"}}, \"required\": [\"Reason\", \"Priority\", \"Subject\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_request_coordinator"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Log an unassigned service request and a coordinator task when the caller is unknown, no qualified technician is free, or booking failed."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8RequestCoordinatorAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4bcbfc5f-b221-5432-b41b-b811d359e9e0"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_send_booking_confirmation"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"CaseId\": {\"type\": \"string\", \"description\": \"Case id returned by vantage_book_visit\"}, \"Subject\": {\"type\": \"string\", \"description\": \"Email subject, starting with: Your Vantage visit is booked\"}, \"Body\": {\"type\": \"string\", \"description\": \"Filled confirmation email body (plain text)\"}}, \"required\": [\"CaseId\", \"Subject\", \"Body\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_send_booking_confirmation"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Send the single booking confirmation email for a case that vantage_book_visit has just booked. The recipient is the case contact. Returns AlreadySent if the confirmation was sent before. Call once per booking."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8SendBookingConfirmationAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "60986e8e-06e0-5288-aec4-21d25d049213"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_get_customer_context"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"PhoneNumber\": {\"type\": \"string\", \"description\": \"Customer phone number as digits, e.g. 555-0199.\"}, \"StreetHint\": {\"type\": \"string\", \"description\": \"Optional street to disambiguate several matching accounts.\"}, \"EquipmentHint\": {\"type\": \"string\", \"description\": \"Optional equipment name fragment when the customer owns several units.\"}}, \"required\": [\"PhoneNumber\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_get_customer_context"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Find a Vantage customer by phone number and return their registered address, equipment and the warranty verdict. Call before discussing fees or booking. Do not use to find a technician."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8GetCustomerContextAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8475c9ce-7483-58ac-87d0-a45bc3810728"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_find_technician_slot"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"JobName\": {\"type\": \"string\", \"description\": \"Technician qualification, e.g. Field Technician - Air Conditioning.\"}, \"Priority\": {\"type\": \"string\", \"description\": \"High | Medium | Low\"}, \"PreferredDate\": {\"type\": \"string\", \"description\": \"Optional preferred date yyyy-MM-dd\"}, \"PreferredStartTime\": {\"type\": \"string\", \"description\": \"Optional preferred start time HH:mm, e.g. 16:00\"}}, \"required\": [\"JobName\", \"Priority\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_find_technician_slot"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Return the earliest free two-hour arrival window with a technician qualified for a Job, optionally at or after a preferred time. Read-only. Do not use to book."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8FindTechnicianSlotAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ab9179f2-21d8-5388-8b7f-a08d9dfbf5f0"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_create_kb_draft"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"Topic\": {\"type\": \"string\", \"description\": \"Short topic of the policy gap, e.g. Follow-up visit fee\"}, \"ArticleBody\": {\"type\": \"string\", \"description\": \"Full draft text in the house format, with Decision needed: lines\"}, \"Keywords\": {\"type\": \"string\", \"description\": \"Optional search keywords\"}, \"AffectedArticleId\": {\"type\": \"string\", \"description\": \"Id of the published article to revise; empty for a new article\"}, \"SourceCaseId\": {\"type\": \"string\", \"description\": \"The low-rated case\"}, \"CustomerComment\": {\"type\": \"string\", \"description\": \"The customer's survey comment\"}}, \"required\": [\"Topic\", \"ArticleBody\", \"SourceCaseId\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_create_kb_draft"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Create one unpublished Draft knowledge article (a revision of the affected article, or a new one) and a review task for the knowledge owner. Never publishes."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8CreateKbDraftAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c2e4a47a-0253-5e32-b854-f6a74d4c912e"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_book_visit"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"ContactId\": {\"type\": \"string\", \"description\": \"Customer contact id from vantage_get_customer_context\"}, \"ConfItemId\": {\"type\": \"string\", \"description\": \"Equipment id from vantage_get_customer_context\"}, \"TechnicianContactId\": {\"type\": \"string\", \"description\": \"Technician from vantage_find_technician_slot\"}, \"WindowStart\": {\"type\": \"string\", \"description\": \"WindowStart exactly as returned by vantage_find_technician_slot\"}, \"WindowEnd\": {\"type\": \"string\", \"description\": \"WindowEnd exactly as returned by vantage_find_technician_slot\"}, \"DisplayWindow\": {\"type\": \"string\", \"description\": \"DisplayWindow as returned by vantage_find_technician_slot\"}, \"Priority\": {\"type\": \"string\", \"description\": \"High | Medium | Low\"}, \"FeePosition\": {\"type\": \"string\", \"description\": \"Waived | Applies | May apply\"}, \"Subject\": {\"type\": \"string\", \"description\": \"Short fault summary, e.g. AC not cooling\"}, \"Symptoms\": {\"type\": \"string\", \"description\": \"Priority reason and the customer's own words\"}, \"ServiceAddress\": {\"type\": \"string\", \"description\": \"Confirmed service address: street, city\"}}, \"required\": [\"ContactId\", \"TechnicianContactId\", \"WindowStart\", \"WindowEnd\", \"DisplayWindow\", \"Priority\", \"FeePosition\", \"Subject\", \"Symptoms\", \"ServiceAddress\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_book_visit"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Book an accepted visit in one call: creates the case and the visit, assigns the technician and sets In progress, then returns the case number. Call only after the customer accepts the offered window."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8BookVisitAction, Cr8FieldServiceOps"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ed878953-e8a6-50e1-b8b2-a9d722500b08"
+        },
+        {
+          "SchemaColumnUId": "2d0431d0-2fdc-74b5-79e9-d49875096835",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "4a0efadf-5f79-ee5f-0c03-7a9048ed29fb",
+          "Value": "vantage_get_technician_current_job"
+        },
+        {
+          "SchemaColumnUId": "853532df-094c-8951-f322-6eab84911d3d",
+          "Value": "ebed4287-7fd3-4d75-843f-c2ea0b795e66",
+          "DisplayValue": "Source code action"
+        },
+        {
+          "SchemaColumnUId": "8c4ee51e-c955-ca93-3656-b9f24f290b8e",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948",
+          "DisplayValue": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "a1a8e09c-fe4a-da62-c6e5-3ae932743019",
+          "Value": "{\"type\": \"object\", \"properties\": {\"TechnicianContactId\": {\"type\": \"string\", \"description\": \"Contact id of the signed-in technician (from creatio_get_current_user)\"}}, \"required\": [\"TechnicianContactId\"]}"
+        },
+        {
+          "SchemaColumnUId": "b5f0b546-9a71-d442-2587-350fe0fffd6a",
+          "Value": "vantage_get_technician_current_job"
+        },
+        {
+          "SchemaColumnUId": "bbe15828-e7a2-3c5a-6ae9-f4626e4d0572",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "c489ce0a-e96f-baff-63a9-852d24277ac1",
+          "Value": "Return the job a Vantage technician is on now, just finished or has next, from their calendar and the clock. Read-only."
+        },
+        {
+          "SchemaColumnUId": "df126a74-9f04-b336-deb5-bfbd9caaf3f2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "dfd65c0a-7635-6fac-53a5-0ff0f8f549bf",
+          "Value": "Terrasoft.Configuration.Cr8FieldServiceOps.Cr8GetCurrentJobAction, Cr8FieldServiceOps"
+        }
+      ]
+    }
+  ]
+}

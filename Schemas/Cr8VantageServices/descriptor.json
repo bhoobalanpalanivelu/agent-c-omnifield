@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6559928f-2e24-47e5-99bc-c9b26ab23c7e",
+    "Name": "Cr8VantageServices",
+    "ModifiedOnUtc": "\/Date(1790581121000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Vantage services",
+    "DependsOn": []
+  }
+}

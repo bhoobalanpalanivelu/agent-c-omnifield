@@ -1,0 +1,832 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "03a67fdf-514c-4fdc-aa8f-d84a8c7ff392"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "72f4db15-5631-40ed-9faa-2d12a3cddf19",
+          "DisplayValue": "Vantage: AI integration user"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "3d810297-1cea-493e-a459-53b1fe1cc65b"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "10b4e592-5ca1-49f3-9921-550a10e6487d"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "57d7c207-1593-4e95-90af-30450adb453e",
+          "DisplayValue": "Vantage: arrival window hours"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "15b9275a-e715-497c-b078-a66d62907157"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "cffc9c34-6394-4e99-86b3-ff383862f73a",
+          "DisplayValue": "Vantage: response target days (High)"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1685a68e-4971-4d75-b4d6-9eb0fbb80a8a"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "08247c19-310e-494e-ade0-c3e50838642d",
+          "DisplayValue": "Vantage: case origin"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "4f420576-fd79-443d-a1aa-235b2b6708b6"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1ea1dff7-cc60-4a3d-a822-e3da2a0f5fdc"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "f6b5cfaf-8bd0-4792-9149-549979af8ebf",
+          "DisplayValue": "Vantage: coordinator"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "4aecdb46-6a7a-4ddb-900d-0bbaf214cf9d"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "42410d28-ae04-4ad2-a7d6-9b8dd705dd60"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "f18d7665-b824-436f-8bde-da5b79336631",
+          "DisplayValue": "Vantage: knowledge owner"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "4aecdb46-6a7a-4ddb-900d-0bbaf214cf9d"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "500b5d31-afd0-4511-9138-5350788c89d8"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "4275609b-c054-4265-b6d6-64df98e5f20a",
+          "DisplayValue": "Vantage: late change hours"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "87626601-0839-48a3-8680-0709d6d517d2"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "fdac0b4d-3226-4289-af54-bec3dcad88e8",
+          "DisplayValue": "Vantage: arrival window starts"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": "08:00,10:00,12:00,14:00,16:00"
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "96310078-1075-49a2-aa03-d3aabad69e92"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "9a0cfa52-fe58-436f-9d5b-40c264fcd84f",
+          "DisplayValue": "Vantage: response target days (Medium)"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a100f64f-2fdf-487f-b601-84e3f0b2756d"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "100bb775-fb23-4624-a173-2f28fefda053",
+          "DisplayValue": "Vantage: timezone label"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": "Central Time"
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "bd47280a-8e6d-4bb4-ae43-8786014dc632"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "c2c61b6e-7d3b-45f7-8979-f78834e7d4d1",
+          "DisplayValue": "Vantage: booking lead minutes"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 60
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c1830ded-e9e2-4412-b0d2-cf2f66edbd84"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "f72f85c9-0e51-4b0b-83c3-d3afd6c2ae1a",
+          "DisplayValue": "Vantage: technicians role"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "48693a1a-9bce-4023-811e-0c0aac691de1"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c7a4684d-96ec-407b-b9de-f04ca69561f2"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "65106180-dc72-43d5-907b-566296d99633",
+          "DisplayValue": "Vantage: service days"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": "Mon,Tue,Wed,Thu,Fri,Sat"
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d0603581-266f-44cc-841d-831561c85f85"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "98416cae-e41d-4fcd-b3b1-ee6e1faaf11b",
+          "DisplayValue": "Vantage: visit activity category"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "650fe3da-dd56-42d6-bc8c-e0bc15706c31"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d408491f-2209-4b03-bcd8-37ffdfb24c8d"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "395b837a-4077-47b0-8870-983ba203a052",
+          "DisplayValue": "Vantage: case guard enabled"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e73d8251-6ce4-48b8-b7b9-f6b829906cad"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "575454f6-4b19-405c-86fe-b25797d982c8",
+          "DisplayValue": "Vantage: service managers role"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "4e57f033-edea-420e-a2b7-10a07756a4c9"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ed183d85-a757-4f00-9741-920fc3caf05f"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "cbf322b7-5421-47ca-a781-9255631281cb",
+          "DisplayValue": "Vantage: response target days (Low)"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 5
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f5054862-ecc4-4b19-8218-f3c968325f61"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "45d43bf4-b997-4f39-963e-dd35935f50f5",
+          "DisplayValue": "Vantage: search horizon (service days)"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 10
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    }
+  ]
+}

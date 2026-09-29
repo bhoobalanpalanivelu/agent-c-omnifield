@@ -1,0 +1,112 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "121d8a42-f6bf-4210-b263-688c3609eb9b"
+        },
+        {
+          "SchemaColumnUId": "063dffcd-c5db-49d4-be17-325e1933c532",
+          "Value": "2a608ed7-d118-402a-99c0-2f583291ed2e",
+          "DisplayValue": "Working hours"
+        },
+        {
+          "SchemaColumnUId": "6a37ee82-3cac-42a4-859f-64998d01f90e",
+          "Value": "43890a45-e3e5-4714-87ff-e7cec512c1b6",
+          "DisplayValue": "Residential HVAC repair visit Vantage Residential Service Plan"
+        },
+        {
+          "SchemaColumnUId": "7d9d92cb-2044-4e16-8ad8-0674199646c0",
+          "Value": 6
+        },
+        {
+          "SchemaColumnUId": "90bded78-97f2-4922-a5c5-b7dbed3b2fa2",
+          "Value": 4
+        },
+        {
+          "SchemaColumnUId": "b1b5135e-fd3e-44e4-800e-77e2e4ea1dc7",
+          "Value": "cbb93036-f46b-1410-ef8c-0050ba5d6c38",
+          "DisplayValue": "Low"
+        },
+        {
+          "SchemaColumnUId": "eab15b3f-a9be-4d9f-893a-ed4637ea145f",
+          "Value": "bdcbb819-9b26-4627-946f-d00645a2d401",
+          "DisplayValue": "Working days"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "208e949a-3ebd-4ee7-82c8-500c6b3f5ffa"
+        },
+        {
+          "SchemaColumnUId": "063dffcd-c5db-49d4-be17-325e1933c532",
+          "Value": "2a608ed7-d118-402a-99c0-2f583291ed2e",
+          "DisplayValue": "Working hours"
+        },
+        {
+          "SchemaColumnUId": "6a37ee82-3cac-42a4-859f-64998d01f90e",
+          "Value": "43890a45-e3e5-4714-87ff-e7cec512c1b6",
+          "DisplayValue": "Residential HVAC repair visit Vantage Residential Service Plan"
+        },
+        {
+          "SchemaColumnUId": "7d9d92cb-2044-4e16-8ad8-0674199646c0",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "90bded78-97f2-4922-a5c5-b7dbed3b2fa2",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "b1b5135e-fd3e-44e4-800e-77e2e4ea1dc7",
+          "Value": "8b700f24-f46b-1410-ee8c-0050ba5d6c38",
+          "DisplayValue": "High"
+        },
+        {
+          "SchemaColumnUId": "eab15b3f-a9be-4d9f-893a-ed4637ea145f",
+          "Value": "bdcbb819-9b26-4627-946f-d00645a2d401",
+          "DisplayValue": "Working days"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "35d88b5c-91c6-4db2-800d-af3fef2aa4c9"
+        },
+        {
+          "SchemaColumnUId": "063dffcd-c5db-49d4-be17-325e1933c532",
+          "Value": "2a608ed7-d118-402a-99c0-2f583291ed2e",
+          "DisplayValue": "Working hours"
+        },
+        {
+          "SchemaColumnUId": "6a37ee82-3cac-42a4-859f-64998d01f90e",
+          "Value": "43890a45-e3e5-4714-87ff-e7cec512c1b6",
+          "DisplayValue": "Residential HVAC repair visit Vantage Residential Service Plan"
+        },
+        {
+          "SchemaColumnUId": "7d9d92cb-2044-4e16-8ad8-0674199646c0",
+          "Value": 3
+        },
+        {
+          "SchemaColumnUId": "90bded78-97f2-4922-a5c5-b7dbed3b2fa2",
+          "Value": 2
+        },
+        {
+          "SchemaColumnUId": "b1b5135e-fd3e-44e4-800e-77e2e4ea1dc7",
+          "Value": "d9bd322c-f46b-1410-ee8c-0050ba5d6c38",
+          "DisplayValue": "Medium"
+        },
+        {
+          "SchemaColumnUId": "eab15b3f-a9be-4d9f-893a-ed4637ea145f",
+          "Value": "bdcbb819-9b26-4627-946f-d00645a2d401",
+          "DisplayValue": "Working days"
+        }
+      ]
+    }
+  ]
+}

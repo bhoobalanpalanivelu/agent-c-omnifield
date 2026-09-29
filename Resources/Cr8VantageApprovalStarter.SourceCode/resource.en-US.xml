@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Vantage: start case approval on solution" />
+			<Item Name="Description" Value="Case listener that deterministically starts Cr8VantageCaseApproval (replaces the unreliable record signal)." />
+		</Items>
+	</Group>
+</Resources>

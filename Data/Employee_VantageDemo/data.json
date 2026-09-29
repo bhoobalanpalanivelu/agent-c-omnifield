@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "98ef22e2-bf6d-4296-918c-a2965514ce6e"
+        },
+        {
+          "SchemaColumnUId": "9b5d9ac5-c444-49fc-9249-fb8c2e542256",
+          "Value": "30a5cfd8-3145-4ae5-9e8f-c04ee97b8372",
+          "DisplayValue": "Sam Okafor"
+        },
+        {
+          "SchemaColumnUId": "f0ed710c-9196-41dc-93a2-2fcff481f430",
+          "Value": "32cfabd9-fe3c-4182-be9f-7e20b972cb8e",
+          "DisplayValue": "Field Technician - Heating"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d85f8718-129a-430a-aa2a-37fab9cc1257"
+        },
+        {
+          "SchemaColumnUId": "9b5d9ac5-c444-49fc-9249-fb8c2e542256",
+          "Value": "18c6c60d-c10f-4e3a-8365-14ca11596082",
+          "DisplayValue": "Alex Rivera"
+        },
+        {
+          "SchemaColumnUId": "f0ed710c-9196-41dc-93a2-2fcff481f430",
+          "Value": "c0fde48d-6944-4128-bca8-5ff811e24a3e",
+          "DisplayValue": "Field Technician - Air Conditioning"
+        }
+      ]
+    }
+  ]
+}

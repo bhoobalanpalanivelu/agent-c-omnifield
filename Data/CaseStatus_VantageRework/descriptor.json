@@ -1,0 +1,84 @@
+﻿{
+  "Descriptor": {
+    "UId": "d0bd8f5e-c91a-4bca-9d5c-546187b61c4a",
+    "Name": "CaseStatus_VantageRework",
+    "ModifiedOnUtc": "\/Date(1790450175000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "99f35013-6b7a-47d6-b440-e3f1a0ba991c",
+      "Name": "CaseStatus"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "0a97a9ee-3cf1-4e17-ae9c-b06583f4b46e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsPaused",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "5cafa2ad-ff58-42a8-964a-d500c00a5387",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsDisplayed",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "98771b3f-7dbe-4b12-a017-0ab8d406a02a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsResolved",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "ae2d9da9-d348-4102-b873-3cfee70fa119",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Color",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "b78647f6-76db-4d25-b665-00fce475324e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsFinal",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "bf194ba2-93db-48f8-9bb6-5cb160bf8869",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "StageNumber",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "c2180cbe-13ad-4ad0-bbc5-ae229f8c1526",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsCloseOnSave",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      }
+    ]
+  }
+}

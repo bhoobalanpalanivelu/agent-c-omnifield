@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "dd7c01f4-dc94-4e57-a68d-f87118dedf34",
+    "Name": "Cr8VantageCaseApproval",
+    "ModifiedOnUtc": "\/Date(1790447128000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Vantage: case resolution approval",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.End1.Caption" Value="End" />
+			<Item Name="BaseElements.ManagerApproval.Caption" Value="Service manager approves resolution" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ApprovalSchemaUId.Caption" Value="Approval object" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ApprovalSchemaUId.DisplayValue" Value="9800f45d-7d2e-44c7-85e5-053c06c8c2d4" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ApproverEmailTemplate.Caption" Value="Email template for the approver" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ApproverType.Caption" Value="Approver type" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ApproverType.DisplayValue" Value="Role" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.AuthorEmailAddress.Caption" Value="Recipient" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.AuthorEmailTemplate.Caption" Value="Email template for the author" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.CurrentApprovalId.Caption" Value="Current Approval Id" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.EmployeeId.Caption" Value="Employee" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.EntitySchemaUId.DisplayValue" Value="117d32f9-8275-4534-8411-1c66115ce9cd" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IgnoreEmailErrors.Caption" Value="Ignore email sending errors" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IgnoreEmailErrors.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsAllowedToDelegate.Caption" Value="Approval may be delegated" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsAllowedToDelegate.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsRequiredDigitalSignature.Caption" Value="Digital signature required" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsSendEmailToApprovers.Caption" Value="Send email to the approvers" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsSendEmailToApprovers.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsSendEmailToAuthor.Caption" Value="Send email to the author" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.IsSendEmailToAuthor.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.MasterColumnUId.Caption" Value="Master column" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.Purpose.Caption" Value="Approval purpose" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.Purpose.DisplayValue" Value="Resolve Vantage case? The technician recorded a solution; approve to resolve the case, reject to send it back for rework." />
+			<Item Name="BaseElements.ManagerApproval.Parameters.Purpose.Value" Value="Resolve Vantage case? The technician recorded a solution; approve to resolve the case, reject to send it back for rework." />
+			<Item Name="BaseElements.ManagerApproval.Parameters.RecordId.Caption" Value="Record Id" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.RecordId.DisplayValue" Value="[#Case Id#]" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.ResultParameter.Caption" Value="Result parameter" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.RoleId.Caption" Value="Role" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.RoleId.DisplayValue" Value="[#Lookup.Roles (view).Vantage Service Managers.4e57f033-edea-420e-a2b7-10a07756a4c9#]" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.SectionId.Caption" Value="Section" />
+			<Item Name="BaseElements.ManagerApproval.Parameters.SectionId.DisplayValue" Value="c97824d9-3952-4d5e-9a5b-c6c468bf555a" />
+			<Item Name="BaseElements.Start1.Caption" Value="Started by Cr8VantageApprovalStarter" />
+			<Item Name="Caption" Value="Vantage: case resolution approval" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#[PropertyValue:Caption]#]" />
+			<Item Name="Parameters.CaseId.Caption" Value="Case Id" />
+			<Item Name="Parameters.CaseId.Sys_Description" Value="Vantage case to approve; passed by Cr8VantageApprovalStarter" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "01d38e29-bd0f-4077-a6cc-68a27aef8f2f",
+    "Name": "Case",
+    "ModifiedOnUtc": "\/Date(1790277290000)\/",
+    "Parent": {
+      "UId": "117d32f9-8275-4534-8411-1c66115ce9cd",
+      "Name": "Case"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Case",
+    "DependsOn": []
+  }
+}

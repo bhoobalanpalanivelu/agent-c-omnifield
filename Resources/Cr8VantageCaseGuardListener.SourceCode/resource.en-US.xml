@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Vantage case guard listener" />
+			<Item Name="Description" Value="R1: AI integration user and technicians never resolve/close a Vantage case. R2: In progress requires Owner + visit Activity. Kill switch Cr8VantageGuardEnabled." />
+		</Items>
+	</Group>
+</Resources>

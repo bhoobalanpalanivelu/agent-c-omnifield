@@ -1,0 +1,28 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "23cbd189-6fe4-466f-9d5c-5dce9c551948"
+        },
+        {
+          "SchemaColumnUId": "2e4bd670-e01c-0b39-336f-0a3f8acc7c54",
+          "Value": "Vantage field service tools: customer and warranty context, technician availability, booking, booking confirmation, coordinator hand-off, technician current job, knowledge drafts."
+        },
+        {
+          "SchemaColumnUId": "6e7aa22e-fa36-4cc1-a802-99fd32d9ae1c",
+          "Value": "Vantage Field Service Tools"
+        },
+        {
+          "SchemaColumnUId": "9bb19ab2-c3f3-7776-de15-4f19e341e2d4",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "e61a713d-8385-ac01-386d-45d4372e65ca",
+          "Value": "vantage-field-service-tools"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "04ac4517-0f8b-4517-9c6f-77c4da29f52a"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "ba257d01-fccb-494c-9da1-fef1402a2a0d",
+          "DisplayValue": "Cr8VantageServicePact"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "e45f11be-c9e4-4c98-a67d-2790e643d473"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6466567e-0a9e-497d-b05b-620083b74a70"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "61c6f758-0304-447d-938e-db51cffe6ecc",
+          "DisplayValue": "Cr8VantageServiceItem"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "d9761667-396e-4efa-b0f6-0fe307554d07"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "650fe3da-dd56-42d6-bc8c-e0bc15706c31"
+        },
+        {
+          "SchemaColumnUId": "ca94a324-e7f1-44ab-b1b7-98cdfabd9c11",
+          "Value": "fbe0acdc-cfc0-df11-b00f-001d60e938c6",
+          "DisplayValue": "Task"
+        }
+      ]
+    }
+  ]
+}

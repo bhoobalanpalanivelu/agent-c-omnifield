@@ -1,0 +1,63 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c81addf-8a36-488b-aa6a-5ac3b59d0e4a",
+    "Name": "CaseNotificationRule_Vantage",
+    "ModifiedOnUtc": "\/Date(1790332048000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "4fc8146d-b899-4e6a-bbaf-62244f00b72b",
+      "Name": "CaseNotificationRule"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "086ec50b-11d3-4990-9928-83a5602a5081",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "EmailTemplate",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "1ad4adab-d6e3-4f46-bc16-135b0b486b68",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "RuleUsage",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "2bad1645-295e-4592-bddf-15f5dc4555e5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CaseCategory",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "44ceb0ec-dac6-4711-81c3-19579449e3c1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CaseStatus",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "7ab3e63f-8cf2-4b96-beb3-45bfc4d33558",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsQuoteOriginalEmail",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "fac4843f-2b65-46cc-9fd8-0de0ea4413ed",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Delay",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      }
+    ]
+  }
+}

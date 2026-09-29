@@ -1,0 +1,63 @@
+﻿{
+  "Descriptor": {
+    "UId": "aef00f6b-82ab-4ad3-ae83-e4c312e2b777",
+    "Name": "TimeToPrioritize_Vantage",
+    "ModifiedOnUtc": "\/Date(1790440411000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "f0740e3e-3dce-4594-9495-b306e3d1751c",
+      "Name": "TimeToPrioritize"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "063dffcd-c5db-49d4-be17-325e1933c532",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ReactionTimeUnit",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "6a37ee82-3cac-42a4-859f-64998d01f90e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ServiceInServicePact",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "7d9d92cb-2044-4e16-8ad8-0674199646c0",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SolutionTimeValue",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "90bded78-97f2-4922-a5c5-b7dbed3b2fa2",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ReactionTimeValue",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "b1b5135e-fd3e-44e4-800e-77e2e4ea1dc7",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CasePriority",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "eab15b3f-a9be-4d9f-893a-ed4637ea145f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SolutionTimeUnit",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      }
+    ]
+  }
+}

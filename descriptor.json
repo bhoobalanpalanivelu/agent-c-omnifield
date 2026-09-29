@@ -1,0 +1,79 @@
+﻿{
+  "Descriptor": {
+    "UId": "b8ffff27-07e4-4d71-91b0-3d52ea559725",
+    "Name": "Cr8FieldServiceOps",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1790276861000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/Cr8FieldServiceOps.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
+        "Type": 1
+      },
+      {
+        "UId": "3cc213be-9773-4cd0-8e5a-614fe6f5e2e9",
+        "Name": "CAIServiceRequest",
+        "Type": 1
+      },
+      {
+        "UId": "408fe390-2c3e-4702-5703-80e181a174b3",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtKnowledgeManagementApp",
+        "Type": 1
+      },
+      {
+        "UId": "43d663d1-6ab9-4369-903c-f804cacc55e4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseManagementApp",
+        "Type": 1
+      },
+      {
+        "UId": "4ff654b0-03ac-46dd-91bf-6efde13c81b3",
+        "Name": "CrtMCPPublishingApp",
+        "Type": 1
+      },
+      {
+        "UId": "6c904dc5-03d7-409a-aa98-dfa2ec97aa02",
+        "PackageVersion": "7.8.0",
+        "Name": "SLMITILService"
+      },
+      {
+        "UId": "90858294-4f2b-60a6-6032-33639e964dfe",
+        "Name": "CrtAICases",
+        "Type": 1,
+        "InstallBehavior": 1
+      },
+      {
+        "UId": "934551d2-2e0b-1dea-b0c7-962ccd94a422",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtKnowledgeManagementVersions",
+        "Type": 1
+      },
+      {
+        "UId": "9fa04b54-93d6-cb1c-5c0c-4121c5f72c91",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtPortal",
+        "Type": 1
+      },
+      {
+        "UId": "a1cfbc7f-e847-4cb1-8f54-a86ec756c98c",
+        "Name": "CrtAIAgenticBridgeApp",
+        "Type": 1
+      },
+      {
+        "UId": "d8f3315b-0e23-4f20-a2e6-483c4aa8ca56",
+        "PackageVersion": "7.8.0",
+        "Name": "CMDB"
+      }
+    ]
+  }
+}

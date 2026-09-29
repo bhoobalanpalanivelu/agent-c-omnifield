@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f445c0e-b04a-4919-9be5-2b53ae11c2e3",
+    "Name": "Cr8VantageCaseGuardListener",
+    "ModifiedOnUtc": "\/Date(1790279231000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Vantage case guard listener",
+    "DependsOn": []
+  }
+}

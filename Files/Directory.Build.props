@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/Cr8FieldServiceOps/Schemas/Case/Case.cs" Condition="Exists('$(PkgPath)/Cr8FieldServiceOps/Schemas/Case/Case.cs')" />
+		<Compile Include="$(PkgPath)/Cr8FieldServiceOps/Schemas/Cr8FeePosition/Cr8FeePosition.cs" Condition="Exists('$(PkgPath)/Cr8FieldServiceOps/Schemas/Cr8FeePosition/Cr8FeePosition.cs')" />
+	</ItemGroup>
+</Project>

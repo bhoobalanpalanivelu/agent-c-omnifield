@@ -1,0 +1,42 @@
+﻿{
+  "Descriptor": {
+    "UId": "db0b81ae-1046-483d-b31b-d32d998899af",
+    "Name": "DayInCalendar_Vantage",
+    "ModifiedOnUtc": "\/Date(1790440319000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "13665ad9-ac50-479b-b43c-765d03988626",
+      "Name": "DayInCalendar"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "5a88c990-9162-4876-875d-dffcb3669f5a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DayOfWeek",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "d5ad1bba-36c0-4807-a99e-428d41eb01b6",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DayType",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "e21b29e0-9bc7-40df-bcbb-cee71c414300",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Calendar",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      }
+    ]
+  }
+}

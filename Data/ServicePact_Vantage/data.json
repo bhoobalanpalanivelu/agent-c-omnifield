@@ -1,0 +1,39 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e45f11be-c9e4-4c98-a67d-2790e643d473"
+        },
+        {
+          "SchemaColumnUId": "19311286-f48f-42bf-899e-21d226188460",
+          "Value": "\/Date(1767218400000+0200)\/"
+        },
+        {
+          "SchemaColumnUId": "2e1d09da-730a-4c37-a832-e3a92b54e21b",
+          "Value": "f6822f7f-0c38-4d98-87d2-9cfd25bdaa60",
+          "DisplayValue": "SLA"
+        },
+        {
+          "SchemaColumnUId": "962a5845-b220-499d-abeb-32024cc6b626",
+          "Value": "Vantage Residential Service Plan"
+        },
+        {
+          "SchemaColumnUId": "caccdc0e-ba0e-4c14-a142-cd85e7abe724",
+          "Value": "45f2dcb4-d1fa-4cd2-8e4b-66fc52589261",
+          "DisplayValue": "Vantage field service hours"
+        },
+        {
+          "SchemaColumnUId": "ce3b4314-00be-4920-9ee0-3bb4f0652b51",
+          "Value": "f65fbd8f-f7c1-43b2-8f1c-75e02a4975aa",
+          "DisplayValue": "Active"
+        },
+        {
+          "SchemaColumnUId": "fab73b77-a8b5-4c05-9270-000e459d33b5",
+          "Value": "\/Date(1830204000000+0200)\/"
+        }
+      ]
+    }
+  ]
+}

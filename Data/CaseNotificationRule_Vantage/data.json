@@ -1,0 +1,148 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "58beff45-2084-44e2-8d29-cd582f02896d"
+        },
+        {
+          "SchemaColumnUId": "086ec50b-11d3-4990-9928-83a5602a5081",
+          "Value": "f3810979-9148-4430-8203-0e632d17aa6f",
+          "DisplayValue": "Case registration notification (US)"
+        },
+        {
+          "SchemaColumnUId": "1ad4adab-d6e3-4f46-bc16-135b0b486b68",
+          "Value": "064224d7-130f-4e64-bff7-0eebb3f8e7e6",
+          "DisplayValue": "Disabled"
+        },
+        {
+          "SchemaColumnUId": "2bad1645-295e-4592-bddf-15f5dc4555e5",
+          "Value": "1c0bc159-150a-e111-a31b-00155d04c01d",
+          "DisplayValue": "Service request"
+        },
+        {
+          "SchemaColumnUId": "44ceb0ec-dac6-4711-81c3-19579449e3c1",
+          "Value": "ae5f2f10-f46b-1410-fd9a-0050ba5d6c38",
+          "DisplayValue": "New"
+        },
+        {
+          "SchemaColumnUId": "7ab3e63f-8cf2-4b96-beb3-45bfc4d33558",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "fac4843f-2b65-46cc-9fd8-0de0ea4413ed",
+          "Value": 0
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "61697d6e-87df-4cde-909d-dcf69ee13357"
+        },
+        {
+          "SchemaColumnUId": "086ec50b-11d3-4990-9928-83a5602a5081",
+          "Value": "80cdb129-de99-433f-8783-9d71c205607b",
+          "DisplayValue": "Case closure notification"
+        },
+        {
+          "SchemaColumnUId": "1ad4adab-d6e3-4f46-bc16-135b0b486b68",
+          "Value": "064224d7-130f-4e64-bff7-0eebb3f8e7e6",
+          "DisplayValue": "Disabled"
+        },
+        {
+          "SchemaColumnUId": "2bad1645-295e-4592-bddf-15f5dc4555e5",
+          "Value": "1c0bc159-150a-e111-a31b-00155d04c01d",
+          "DisplayValue": "Service request"
+        },
+        {
+          "SchemaColumnUId": "44ceb0ec-dac6-4711-81c3-19579449e3c1",
+          "Value": "3e7f420c-f46b-1410-fc9a-0050ba5d6c38",
+          "DisplayValue": "Closed"
+        },
+        {
+          "SchemaColumnUId": "7ab3e63f-8cf2-4b96-beb3-45bfc4d33558",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "fac4843f-2b65-46cc-9fd8-0de0ea4413ed",
+          "Value": 0
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a4abe3a6-d2f8-49bf-9c2f-591ae6cd6e14"
+        },
+        {
+          "SchemaColumnUId": "086ec50b-11d3-4990-9928-83a5602a5081",
+          "Value": "23579c9b-ad32-4520-8353-7ba3aacb53a9",
+          "DisplayValue": "Case resolution notification"
+        },
+        {
+          "SchemaColumnUId": "1ad4adab-d6e3-4f46-bc16-135b0b486b68",
+          "Value": "064224d7-130f-4e64-bff7-0eebb3f8e7e6",
+          "DisplayValue": "Disabled"
+        },
+        {
+          "SchemaColumnUId": "2bad1645-295e-4592-bddf-15f5dc4555e5",
+          "Value": "1c0bc159-150a-e111-a31b-00155d04c01d",
+          "DisplayValue": "Service request"
+        },
+        {
+          "SchemaColumnUId": "44ceb0ec-dac6-4711-81c3-19579449e3c1",
+          "Value": "ae7f411e-f46b-1410-009b-0050ba5d6c38",
+          "DisplayValue": "Resolved"
+        },
+        {
+          "SchemaColumnUId": "7ab3e63f-8cf2-4b96-beb3-45bfc4d33558",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "fac4843f-2b65-46cc-9fd8-0de0ea4413ed",
+          "Value": 0
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "beb9d77f-b38a-4cee-b5d2-fc5c8e776eee"
+        },
+        {
+          "SchemaColumnUId": "086ec50b-11d3-4990-9928-83a5602a5081",
+          "Value": "d790ccfe-db7b-4881-913e-b02aab5b8593",
+          "DisplayValue": "Case processing notification"
+        },
+        {
+          "SchemaColumnUId": "1ad4adab-d6e3-4f46-bc16-135b0b486b68",
+          "Value": "064224d7-130f-4e64-bff7-0eebb3f8e7e6",
+          "DisplayValue": "Disabled"
+        },
+        {
+          "SchemaColumnUId": "2bad1645-295e-4592-bddf-15f5dc4555e5",
+          "Value": "1c0bc159-150a-e111-a31b-00155d04c01d",
+          "DisplayValue": "Service request"
+        },
+        {
+          "SchemaColumnUId": "44ceb0ec-dac6-4711-81c3-19579449e3c1",
+          "Value": "7e9f1204-f46b-1410-fb9a-0050ba5d6c38",
+          "DisplayValue": "In progress"
+        },
+        {
+          "SchemaColumnUId": "7ab3e63f-8cf2-4b96-beb3-45bfc4d33558",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "fac4843f-2b65-46cc-9fd8-0de0ea4413ed",
+          "Value": 0
+        }
+      ]
+    }
+  ]
+}
