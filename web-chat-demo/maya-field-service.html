@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vantage Field Service · Maya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Palette: Bits In Glass document navy/blue as the base, Creatio orange as the single action accent */
+  :root{
+    --navy:#1F3864;     /* BIG navy */
+    --blue:#2E5597;     /* BIG blue */
+    --ink:#1F2A44;      /* BIG body ink */
+    --slate:#5B6B85;    /* BIG secondary text */
+    --surface:#F3F5F9;  /* BIG table surface */
+    --surface-2:#EEF2F8;
+    --line:#DDE3EE;
+    --white:#FFFFFF;
+    --orange:#FF4F17;   /* Creatio accent */
+    --orange-dk:#E0400C;
+    --orange-soft:#FFEDE6;
+    --violet:#6A4BE0;
+    --violet-soft:#EFEBFD;
+    --blue-soft:#E7EEF9;
+    --human:#B4235A; --human-soft:#FCE8EF;
+    --auto:#0F7B5F;  --auto-soft:#E2F4EE;
+    --r:14px;
+    --shadow:0 12px 32px rgba(31,56,100,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font:400 16px/1.6 'Inter',system-ui,sans-serif;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif;line-height:1.15;letter-spacing:-.02em;color:var(--navy)}
+  a{color:inherit;text-decoration:none}
+  svg{flex-shrink:0}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .ic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;gap:8px;font:600 15px 'Inter',system-ui,sans-serif;padding:12px 20px;border-radius:10px;border:1px solid transparent;cursor:pointer;white-space:nowrap;transition:background .15s,border-color .15s,transform .15s}
+  .btn .ic{width:18px;height:18px}
+  .btn-primary{background:var(--orange);color:#fff}
+  .btn-primary:hover{background:var(--orange-dk);transform:translateY(-1px)}
+  .btn-line{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+  .btn-line:hover{border-color:#fff}
+
+  /* Header */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{height:68px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:10px;font:800 18px 'Plus Jakarta Sans',system-ui,sans-serif;color:var(--navy)}
+  .mark{width:32px;height:32px;border-radius:9px;background:var(--navy);display:grid;place-items:center}
+  .nav ul{display:flex;gap:32px;list-style:none;font-weight:500;font-size:15px;color:var(--slate)}
+  .nav ul a:hover{color:var(--navy)}
+
+  /* Hero */
+  .hero{background:linear-gradient(155deg,var(--navy) 0%,#172B4F 55%,var(--blue) 130%);color:#fff}
+  .hero .wrap{display:grid;grid-template-columns:1fr 440px;gap:64px;align-items:center;padding-top:88px;padding-bottom:96px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px 'Inter',system-ui,sans-serif;letter-spacing:.04em;color:#C9D5EA}
+  .live{width:8px;height:8px;border-radius:50%;background:#3DDC97;box-shadow:0 0 0 4px rgba(61,220,151,.2)}
+  .hero h1{color:#fff;font-size:52px;font-weight:800;margin:18px 0 18px}
+  .hero h1 em{font-style:normal;color:#FF8A5C}
+  .hero p{font-size:18px;color:#C9D5EA;max-width:500px}
+  .hero .actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+  .facts{display:flex;gap:36px;margin-top:48px;padding-top:28px;border-top:1px solid rgba(255,255,255,.14)}
+  .facts b{display:block;font:800 28px 'Plus Jakarta Sans',system-ui,sans-serif;color:#fff}
+  .facts span{font-size:13px;color:#9FB0CC}
+
+  /* Case timeline card */
+  .case{background:#fff;color:var(--ink);border-radius:18px;box-shadow:0 28px 64px rgba(0,0,0,.28);overflow:hidden}
+  .case-head{padding:18px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .case-head small{display:block;font-size:12px;color:var(--slate);font-weight:500}
+  .case-head h4{font-size:16px;margin-top:2px}
+  .status{font:600 12px 'Inter',system-ui,sans-serif;padding:4px 10px;border-radius:999px;background:var(--auto-soft);color:var(--auto);white-space:nowrap}
+  .tl{list-style:none;padding:12px 22px 20px}
+  .tl li{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:start;padding:10px 0;position:relative}
+  .tl li:not(:last-child)::after{content:"";position:absolute;left:13px;top:38px;bottom:-8px;width:2px;background:var(--line)}
+  .dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--surface-2);color:var(--blue)}
+  .dot .ic{width:15px;height:15px;stroke-width:2}
+  .tl b{display:block;font-weight:600;font-size:14px;color:var(--navy)}
+  .tl p{font-size:13px;color:var(--slate)}
+  .who{font:600 11px 'Inter',system-ui,sans-serif;padding:3px 8px;border-radius:6px;white-space:nowrap}
+  .w-ai{background:var(--blue-soft);color:var(--blue)}
+  .w-human{background:var(--human-soft);color:var(--human)}
+  .w-auto{background:var(--auto-soft);color:var(--auto)}
+
+  /* Sections */
+  section{padding:96px 0}
+  .kicker{font:700 12px 'Inter',system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+  .head{max-width:620px;margin-bottom:48px}
+  .head h2{font-size:38px;font-weight:800;margin:12px 0}
+  .head p{font-size:17px;color:var(--slate)}
+  .alt{background:var(--surface)}
+
+  /* Lifecycle */
+  .phases{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:14px}
+  .phase{font:700 12px 'Inter',system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .flow{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+  .phase-row{display:grid;grid-template-columns:2fr 1fr 2fr 1fr;gap:16px;margin-bottom:16px}
+  .step{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 18px;display:flex;flex-direction:column;gap:12px;transition:box-shadow .2s,transform .2s}
+  .step:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+  .step .top{display:flex;justify-content:space-between;align-items:center}
+  .num{font:800 13px 'Plus Jakarta Sans',system-ui,sans-serif;color:var(--slate)}
+  .tile{width:42px;height:42px;border-radius:11px;display:grid;place-items:center}
+  .t-blue{background:var(--blue-soft);color:var(--blue)}
+  .t-orange{background:var(--orange-soft);color:var(--orange)}
+  .t-violet{background:var(--violet-soft);color:var(--violet)}
+  .t-human{background:var(--human-soft);color:var(--human)}
+  .t-auto{background:var(--auto-soft);color:var(--auto)}
+  .step h3{font-size:16px}
+  .step p{font-size:14px;color:var(--slate);flex:1}
+
+  /* Agents */
+  .agents{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .agent{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+  .agent .bar{height:4px}
+  .agent .body{padding:26px;display:flex;flex-direction:column;gap:14px;flex:1}
+  .agent h3{font-size:19px}
+  .meta{font-size:13px;color:var(--slate);display:flex;gap:6px;align-items:center}
+  .meta .ic{width:15px;height:15px}
+  .agent p{font-size:15px;color:var(--ink);flex:1}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font:500 12px/1 ui-monospace,Consolas,monospace;padding:6px 8px;border-radius:6px;background:var(--surface);color:var(--navy);border:1px solid var(--line)}
+  .rule{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--auto);font-weight:500;padding-top:14px;border-top:1px solid var(--line)}
+  .rule .ic{width:16px;height:16px;margin-top:2px}
+  .sor{margin-top:20px;background:var(--navy);color:#fff;border-radius:var(--r);padding:20px 26px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .sor b{font:700 15px 'Plus Jakarta Sans',system-ui,sans-serif}
+  .sor span{color:#C9D5EA;font-size:14px}
+
+  /* Governance */
+  .gov{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+  .g{padding:4px 0}
+  .g .tile{margin-bottom:16px}
+  .g h4{font-size:16px;margin-bottom:6px}
+  .g p{font-size:14px;color:var(--slate)}
+
+  /* Try */
+  .try{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .prompts{display:grid;gap:10px}
+  .prompt{display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;font:500 15px 'Inter',system-ui,sans-serif;color:var(--ink);cursor:pointer;transition:border-color .15s,background .15s}
+  .prompt:hover{border-color:var(--orange);background:var(--orange-soft)}
+  .prompt .ic{width:18px;height:18px;color:var(--slate)}
+  .note{margin-top:20px;font-size:14px;color:var(--slate);display:flex;gap:8px;align-items:center}
+
+  footer{border-top:1px solid var(--line);padding:32px 0;font-size:13px;color:var(--slate)}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer b{color:var(--navy)}
+
+  /* Widget pointer + toast */
+  /* Maya launcher: replaces the widget's default pill and opens it via window.CreatioWebChatWidget */
+  .maya-launcher{position:fixed;right:24px;bottom:24px;z-index:2147483646;display:none;align-items:center;gap:12px;height:60px;padding:0 22px 0 8px;border:0;border-radius:999px;cursor:pointer;background:var(--navy);color:#fff;font:600 15px/1.2 'Inter',system-ui,sans-serif;text-align:left;box-shadow:0 0 0 1px rgba(255,255,255,.16),0 12px 28px rgba(31,56,100,.32);transition:transform .2s,box-shadow .2s,opacity .2s}
+  .maya-launcher.ready{display:inline-flex}
+  .maya-launcher:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(31,56,100,.38)}
+  .maya-launcher:focus-visible{outline:3px solid #FF8A5C;outline-offset:3px}
+  .maya-launcher .av{position:relative;width:44px;height:44px;border-radius:50%;display:block}
+  .maya-launcher .av img{width:44px;height:44px;border-radius:50%;display:block}
+  .maya-launcher .av::after{content:"";position:absolute;right:0;bottom:0;width:12px;height:12px;border-radius:50%;background:#3DDC97;border:2px solid var(--navy)}
+  .maya-launcher small{display:block;font-weight:500;font-size:12px;color:#B9C6DD;margin-top:2px}
+  .maya-launcher.open{opacity:0;transform:translateY(8px) scale(.92);pointer-events:none}
+  .toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,16px);background:var(--ink);color:#fff;padding:11px 16px;border-radius:10px;font-size:14px;opacity:0;transition:.25s;z-index:60}
+  .toast.show{opacity:1;transform:translate(-50%,0)}
+
+  @media (max-width:1000px){
+    .hero .wrap{grid-template-columns:1fr;gap:48px}
+    .flow{grid-template-columns:repeat(3,1fr)}
+    .phase-row{display:none}
+    .agents,.try{grid-template-columns:1fr}
+    .gov{grid-template-columns:1fr 1fr}
+    .nav ul{display:none}
+  }
+  @media (max-width:620px){
+    .wrap{padding:0 16px}
+    section{padding:64px 0}
+    .hero .wrap{padding-top:56px;padding-bottom:64px}
+    .hero h1{font-size:36px}
+    .head h2{font-size:28px}
+    .flow,.gov{grid-template-columns:1fr}
+    .facts{gap:24px}
+    .maya-launcher{padding:0 8px}
+    .maya-launcher .lbl{display:none}
+    .brand{font-size:15px}
+    header .btn{padding:10px 14px;font-size:14px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Icon sprite: outline line icons in the Freedom UI style -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-case" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18M8 14h3"/></symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3.5 17.5a1.8 1.8 0 0 0 2.5 2.5l5.8-5.8a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.3-.6-.6-2.3z"/></symbol>
+  <symbol id="i-approve" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 20a6 6 0 0 1 11-3.3M15 18l2 2 4-4"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M9 8h6M9 11h4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 13h6l-1 8 8-10h-6z"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#">
+      <span class="mark"><svg class="ic" style="width:18px;height:18px;color:#fff;stroke-width:2.4" viewBox="0 0 24 24"><path d="M5 5l7 14 7-14"/></svg></span>
+      Vantage Field Service
+    </a>
+    <ul>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#agents">Agents</a></li>
+      <li><a href="#trust">Trust</a></li>
+    </ul>
+    <button class="btn btn-primary" onclick="openMaya()"><svg class="ic"><use href="#i-chat"/></svg>Chat with Maya</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow"><span class="live"></span>Maya is online · heating &amp; cooling service</span>
+      <h1>No heat? Tell Maya.<br><em>The rest runs itself.</em></h1>
+      <p>One conversation books a qualified technician. From there, the case moves itself through the visit, approval, your feedback and what we learn from it.</p>
+      <div class="actions">
+        <button class="btn btn-primary" onclick="openMaya()"><svg class="ic"><use href="#i-cal"/></svg>Book a visit</button>
+        <a class="btn btn-line" href="#how">See how it works</a>
+      </div>
+      <div class="facts">
+        <div><b>3</b><span>AI agents</span></div>
+        <div><b>2</b><span>human checks</span></div>
+        <div><b>1</b><span>Creatio case</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LIFECYCLE -->
+<section id="how">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">How it works</span>
+      <h2>One case, end to end</h2>
+      <p>Every step writes back to the same Creatio case. People step in only where a decision belongs to them.</p>
+    </div>
+
+    <div class="phase-row">
+      <div class="phase">1 · Book the visit</div>
+      <div class="phase">2 · Do the job</div>
+      <div class="phase">3 · Approve and close</div>
+      <div class="phase">4 · Learn</div>
+    </div>
+    <div class="flow">
+      <div class="step">
+        <div class="top"><span class="tile t-blue"><svg class="ic"><use href="#i-case"/></svg></span><span class="num">01</span></div>
+        <h3>Case created</h3>
+        <p>Maya triages urgency and safety, finds the customer and checks warranty.</p>
+        <span class="who w-ai" style="align-self:flex-start">Booking agent</span>
+      </div>
+      <div class="step">
+        <div class="top"><span class="tile t-blue"><svg class="ic"><use href="#i-cal"/></svg></span><span class="num">02</span></div>
+        <h3>Appointment booked</h3>
+        <p>Matches a qualified technician, books a live slot, emails confirmation.</p>
+        <span class="who w-ai" style="align-self:flex-start">Booking agent</span>
+      </div>
+      <div class="step">
+        <div class="top"><span class="tile t-orange"><svg class="ic"><use href="#i-tool"/></svg></span><span class="num">03</span></div>
+        <h3>Technician debrief</h3>
+        <p>The technician signs in; Maya turns the note into the case resolution.</p>
+        <span class="who w-ai" style="align-self:flex-start">Update agent</span>
+      </div>
+      <div class="step">
+        <div class="top"><span class="tile t-human"><svg class="ic"><use href="#i-approve"/></svg></span><span class="num">04</span></div>
+        <h3>Manager approval</h3>
+        <p>Approve resolves the case. Reject reopens it for the technician.</p>
+        <span class="who w-human" style="align-self:flex-start">Human check</span>
+      </div>
+      <div class="step">
+        <div class="top"><span class="tile t-auto"><svg class="ic"><use href="#i-star"/></svg></span><span class="num">05</span></div>
+        <h3>CSAT survey</h3>
+        <p>Sent automatically on Resolved. A low score fires the next agent.</p>
+        <span class="who w-auto" style="align-self:flex-start">Creatio automatic</span>
+      </div>
+      <div class="step">
+        <div class="top"><span class="tile t-violet"><svg class="ic"><use href="#i-book"/></svg></span><span class="num">06</span></div>
+        <h3>Knowledge article</h3>
+        <p>Drafts the missing article and a review task. A person publishes.</p>
+        <span class="who w-ai" style="align-self:flex-start">Improvement agent</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENTS -->
+<section id="agents" class="alt">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Under the hood</span>
+      <h2>Three agents, built from skills</h2>
+      <p>Each agent in Creatio AI Studio is assembled from focused skills and reaches Creatio only through least-privilege MCP tools.</p>
+    </div>
+    <div class="agents">
+      <div class="agent">
+        <div class="bar" style="background:var(--blue)"></div>
+        <div class="body">
+          <span class="tile t-blue"><svg class="ic"><use href="#i-chat"/></svg></span>
+          <h3>Maya · Appointment Booking</h3>
+          <span class="meta"><svg class="ic"><use href="#i-user"/></svg>Customer web chat + voice</span>
+          <p>Takes the call, checks warranty and fees against Vantage policy, and books the visit.</p>
+          <div class="chips"><span class="chip">service-call-intake</span><span class="chip">field-scheduler</span><span class="chip">confirmation-email</span></div>
+          <div class="rule"><svg class="ic"><use href="#i-shield"/></svg>Never takes payment in chat</div>
+        </div>
+      </div>
+      <div class="agent">
+        <div class="bar" style="background:var(--orange)"></div>
+        <div class="body">
+          <span class="tile t-orange"><svg class="ic"><use href="#i-tool"/></svg></span>
+          <h3>Maya · Field Service Update</h3>
+          <span class="meta"><svg class="ic"><use href="#i-lock"/></svg>Technician chat · delegated access</span>
+          <p>Works as the signed-in technician and writes the resolution under their name.</p>
+          <div class="chips"><span class="chip">case-brief</span><span class="chip">get current job</span><span class="chip">update record</span></div>
+          <div class="rule"><svg class="ic"><use href="#i-shield"/></svg>Writes the resolution only, never closes</div>
+        </div>
+      </div>
+      <div class="agent">
+        <div class="bar" style="background:var(--violet)"></div>
+        <div class="body">
+          <span class="tile t-violet"><svg class="ic"><use href="#i-bolt"/></svg></span>
+          <h3>Continuous Improvement</h3>
+          <span class="meta"><svg class="ic"><use href="#i-bolt"/></svg>Agentic Bridge · low CSAT trigger</span>
+          <p>Wakes on a low rating, reads the case and drafts the knowledge the next call needs.</p>
+          <div class="chips"><span class="chip">knowledge-gap</span><span class="chip">case read</span><span class="chip">create kb draft</span></div>
+          <div class="rule"><svg class="ic"><use href="#i-shield"/></svg>Drafts only, never publishes</div>
+        </div>
+      </div>
+    </div>
+    <div class="sor">
+      <svg class="ic" style="color:#FF8A5C"><use href="#i-layers"/></svg>
+      <b>Creatio CRM is the system of record</b>
+      <span>Case, visit, approval process, CSAT notification rule, knowledge base and Agentic Bridge.</span>
+    </div>
+  </div>
+</section>
+
+<!-- GOVERNANCE -->
+<section id="trust">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Trust</span>
+      <h2>Governed by design</h2>
+    </div>
+    <div class="gov">
+      <div class="g"><span class="tile t-blue"><svg class="ic"><use href="#i-lock"/></svg></span><h4>PII masked</h4><p>Card, bank and ID numbers are masked before the agent sees them.</p></div>
+      <div class="g"><span class="tile t-orange"><svg class="ic"><use href="#i-user"/></svg></span><h4>Delegated access</h4><p>The technician agent acts with the technician's own permissions.</p></div>
+      <div class="g"><span class="tile t-human"><svg class="ic"><use href="#i-approve"/></svg></span><h4>Human in the loop</h4><p>Managers approve cases. Knowledge owners publish articles.</p></div>
+      <div class="g"><span class="tile t-auto"><svg class="ic"><use href="#i-shield"/></svg></span><h4>Tested and traced</h4><p>LLM-judged evals, per-agent budgets and a Sandbox → Stage path.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRY -->
+<section class="alt" id="try">
+  <div class="wrap try">
+    <div>
+      <span class="kicker">Try it</span>
+      <h2 style="font-size:36px;font-weight:800;margin:12px 0">Start with a problem</h2>
+      <p style="color:var(--slate);font-size:17px">Click a prompt to copy it, then paste it into the chat in the bottom-right corner.</p>
+      <p class="note"><svg class="ic" style="width:18px;height:18px;color:var(--orange)"><use href="#i-arrow"/></svg>Demo data only. Please don't enter real details.</p>
+    </div>
+    <div class="prompts">
+      <button class="prompt" data-p="My heating stopped working and it's 35 degrees outside.">My heating stopped working and it's 35 degrees outside.<svg class="ic"><use href="#i-copy"/></svg></button>
+      <button class="prompt" data-p="Is my furnace still under warranty?">Is my furnace still under warranty?<svg class="ic"><use href="#i-copy"/></svg></button>
+      <button class="prompt" data-p="Can we do 4 pm instead?">Can we do 4 pm instead?<svg class="ic"><use href="#i-copy"/></svg></button>
+      <button class="prompt" data-p="Will I have to pay a dispatch fee?">Will I have to pay a dispatch fee?<svg class="ic"><use href="#i-copy"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><b>Vantage Field Service</b> is a fictional brand for the Creatio Agent Arena 2026 demo.</div>
+    <div>Built by <b>Bits In Glass</b> on Creatio AI Studio</div>
+  </div>
+</footer>
+
+<button class="maya-launcher" id="mayaLauncher" type="button" aria-label="Chat with Maya" onclick="openMaya()">
+  <span class="av"><img id="mayaAvatar" alt=""></span>
+  <span class="lbl">Chat with Maya<small>Usually replies instantly</small></span>
+</button>
+<div class="toast" id="toast"></div>
+
+<script>
+  /* Maya avatar, used by our launcher and passed to the widget header as logoUrl */
+  const MAYA_AVATAR='data:image/svg+xml,'+encodeURIComponent(
+    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>"+
+    "<circle cx='32' cy='32' r='32' fill='#FF4F17'/>"+
+    "<path d='M19 35v-4a13 13 0 0 1 26 0v4' fill='none' stroke='#fff' stroke-width='4' stroke-linecap='round'/>"+
+    "<rect x='15' y='32' width='9' height='13' rx='3.5' fill='#fff'/><rect x='40' y='32' width='9' height='13' rx='3.5' fill='#fff'/>"+
+    "<path d='M44.5 45c0 4-4 6.5-9.5 6.5' fill='none' stroke='#fff' stroke-width='3' stroke-linecap='round'/></svg>");
+  document.getElementById('mayaAvatar').src=MAYA_AVATAR;
+
+  /* Page-level widget settings. These override the Appearance tab in AI Studio; delete a line to use the AI Studio value */
+  window.__CREATIO_WEB_CHAT_WIDGET_CONFIG__={
+    primaryColor:'#1F3864',
+    theme:'light',
+    headerTitle:'Maya · Vantage Field Service',
+    welcomeMessage:"Hi, I'm Maya. Tell me what's wrong and I'll get a technician booked.",
+    logoUrl:MAYA_AVATAR
+  };
+
+  const launcher=document.getElementById('mayaLauncher');
+  let widgetReady=false, hideSheet=null;
+
+  function toast(msg){
+    const t=document.getElementById('toast');
+    t.textContent=msg;t.classList.add('show');
+    clearTimeout(window.__tt);window.__tt=setTimeout(()=>t.classList.remove('show'),2600);
+  }
+  function api(){return window.CreatioWebChatWidget}
+  function openMaya(){
+    if(widgetReady&&api()){api().open();return}
+    toast('Maya is still loading. Try again in a moment');
+  }
+
+  /* Inside the widget's (open) shadow root: hide its "Ask Creatio.ai" pill (our launcher replaces it) and,
+     since no launcher sits under the open panel, drop the panel onto the 24px page margin and keep it clear of the 68px header */
+  function hideNativeLauncher(){
+    const host=document.querySelector('creatio-web-chat-widget');
+    const root=host&&host.shadowRoot;
+    if(!root)return false;
+    const css='[data-testid="widget-launcher"]{display:none !important}'+
+      '[data-testid="widget-panel"][data-fullscreen="false"]{margin-bottom:0 !important;max-height:calc(100vh - 116px) !important}';
+    try{
+      if(!hideSheet){hideSheet=new CSSStyleSheet();hideSheet.replaceSync(css)}
+      if(!root.adoptedStyleSheets.includes(hideSheet))root.adoptedStyleSheets=[...root.adoptedStyleSheets,hideSheet];
+    }catch(e){
+      if(!root.querySelector('style[data-maya]')){const st=document.createElement('style');st.dataset.maya='';st.textContent=css;root.appendChild(st)}
+    }
+    return true;
+  }
+
+  (function boot(n){
+    const w=api();
+    if(!w||typeof w.on!=='function'){
+      if(n<60)return setTimeout(()=>boot(n+1),250);
+      console.warn('[Vantage] Maya widget did not load. Check the allowed domains and serve the page over http://localhost');
+      return;
+    }
+    w.on('ready',()=>{
+      widgetReady=true;
+      (function wait(i){ if(hideNativeLauncher()){launcher.classList.add('ready');setInterval(hideNativeLauncher,1500)} else if(i<40)setTimeout(()=>wait(i+1),150) })(0);
+    });
+    w.on('opened',()=>{launcher.classList.add('open');launcher.setAttribute('aria-hidden','true');launcher.tabIndex=-1});
+    w.on('closed',()=>{launcher.classList.remove('open');launcher.removeAttribute('aria-hidden');launcher.tabIndex=0;launcher.focus({preventScroll:true})});
+  })(0);
+
+  document.querySelectorAll('.prompt').forEach(b=>b.addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText(b.dataset.p);toast('Copied. Paste it into the Maya chat')}
+    catch(e){toast(b.dataset.p)}
+    openMaya();
+  }));
+</script>
+
+<!-- CAI Maya · Creatio Omnichannel Web Chat widget (embed snippet from AI Studio → Installation) -->
+<script src="https://omnichannel-messaging.creatio.com/assets-react/loader.js?deploymentId=c3181bd8-27b5-4522-a2fd-02cc8ce80870" data-channel-id="c3181bd8-27b5-4522-a2fd-02cc8ce80870" data-api-base-url="https://omnichannel-messaging.creatio.com" data-feature-files="false" async></script>
+</body>
+</html>
